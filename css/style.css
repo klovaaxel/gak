@@ -2,3 +2,61 @@
  * If using a CSS pre-processor, tell it to overwrite this file. If not, place
  * your custom CSS modifications here.
  */
+html{
+    background: url(../images/stars.jpg) left top repeat;
+    background-size: auto 30%;
+}
+
+body{
+  font-family: "lato";
+  color: #fff;
+
+  background-color: #000;
+  background: url(../images/planetUp.jpg) right top no-repeat, url(../images/planetDown.jpg) right bottom no-repeat;
+  background-size: auto 50%;
+
+  margin: 0;
+  padding: 0;
+
+  min-height: 300vh;
+
+}
+
+
+/* Inline #43 | http://localhost:8080/ */
+
+#navbar.container {
+  border: none;
+  border-radius: 0;
+
+  width: 100vw;
+
+  margin: 0 0 5vh 0;
+  padding: 0 10vw;
+
+  background-color: #000;
+}
+
+/* drupal-bootstrap.css | https://cdn.jsdelivr.net/npm/@unicorn-fail/drupal-bootstrap-styles@0.0.2/dist/3.4.0/8.x-3.x/drupal-bootstrap.css */
+
+@media screen and (min-width: 1200px) {
+  .navbar.container {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .navbar.container {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar.container {
+    max-width: 100%;
+  }
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
