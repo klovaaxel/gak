@@ -72,6 +72,33 @@ body{
 }
 
 
+/* Inline #43 | http://localhost:8080/ */
+
+.region-header .logo {
+  display: block;
+  width: 100%;
+}
+
+.region-header .name.navbar-brand {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 4em;
+  line-height: 0;
+  margin: 3.5% 0;
+}
+
+/* bootstrap.css | https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.css */
+
+.region-header .logo img {
+  width: 25%;
+  margin: auto;
+  display: block;
+}
+
+
+
 
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
