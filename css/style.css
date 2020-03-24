@@ -1,22 +1,22 @@
 /* --- General --- */
 html{
-    background: url(../images/stars.jpg) left top repeat;
-    background-size: auto 30%;
+  background: url(../images/stars.jpg) left top repeat;
+  background-size: auto 30%;
 }
 
 body{
   font-family: "lato";
   color: #fff;
+  margin: 0;
+  padding: 0;
+  min-height: 200vh;
+}
 
+/* --- background --- */
+body{
   background-color: #000;
   background: url(../images/planetUp.jpg) right top no-repeat, url(../images/planetDown.jpg) right bottom no-repeat, url(../images/black.jpg) right no-repeat;
   background-size: auto 100vh, auto 100vh, 89vh 100%;
-
-  margin: 0;
-  padding: 0;
-
-  min-height: 300vh;
-
 }
 
 /* --- Navbar --- */
