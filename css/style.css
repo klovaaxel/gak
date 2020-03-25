@@ -45,6 +45,26 @@ body{
   display: flex;
   align-items: center;
 }
+/* --- Search bar ---*/
+
+
+
+.form-item.js-form-item.form-type-search.js-form-type-search.form-item-keys.js-form-item-keys.form-no-label.form-group {
+}
+
+.form-item.js-form-item.form-type-search.js-form-type-search.form-item-keys.js-form-item-keys.form-no-label.form-group {
+}
+
+.form-item.js-form-item.form-type-search.js-form-type-search.form-item-keys.js-form-item-keys.form-no-label.form-group {
+}
+
+.form-item.js-form-item.form-type-search.js-form-type-search.form-item-keys.js-form-item-keys.form-no-label.form-group {
+  display: inline-block;
+}
+
+
+
+
 
 /* --- Main page logo --- */
 .region-header .name.navbar-brand {
