@@ -70,6 +70,20 @@ body{
   width: 100%;
 }
 
+/* --- Become a Member Button ---*/
+.menu--account .first a {
+  background: #d0802f;
+  padding: 5px 25px;
+  margin: 10px 20px;
+  border-radius: 30px;
+  color: white !important;
+  transition: .5s;
+}
+
+.menu--account .first a:hover {
+  background: #ff972d !important;
+}
+
 /* --- Media Queries --- */
 @media screen and (min-width: 1200px) {
   .navbar.container {
@@ -87,20 +101,6 @@ body{
   .navbar.container {
     max-width: 100%;
   }
-}
-
-/* --- Become a Member Button ---*/
-.menu--account .first a {
-  background: #d0802f;
-  padding: 5px 25px;
-  margin: 10px 20px;
-  border-radius: 30px;
-  color: white !important;
-  transition: .5s;
-}
-
-.menu--account .first a:hover {
-  background: #ff972d !important;
 }
 
 /* --- Imports --- */
