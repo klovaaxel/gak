@@ -50,11 +50,12 @@ body{
 .region-header .name.navbar-brand {
   display: block;
   width: 100%;
-  text-align: center;
-  color: #fff;
-  font-size: 4em;
+  height: auto;
   margin: 3.5% 0;
   float: none;
+  text-align: center;
+  color: #fff;
+  line-height: inherit;
 }
 
 .region-header .logo img {
@@ -86,6 +87,20 @@ body{
   .navbar.container {
     max-width: 100%;
   }
+}
+
+/* --- Become a Member Button ---*/
+.menu--account .first a {
+  background: #d0802f;
+  padding: 5px 25px;
+  margin: 10px 20px;
+  border-radius: 30px;
+  color: white !important;
+  transition: .5s;
+}
+
+.menu--account .first a:hover {
+  background: #ff972d !important;
 }
 
 /* --- Imports --- */
