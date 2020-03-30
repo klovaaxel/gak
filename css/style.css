@@ -1,7 +1,7 @@
 /* --- General --- */
 html{
   background: url(../images/stars.jpg) left top repeat;
-  background-size: auto 30%;
+  background-size: auto 70vh;
 }
 
 body{
@@ -45,26 +45,6 @@ body{
   display: flex;
   align-items: center;
 }
-/* --- Search bar ---*/
-
-
-
-.form-item.js-form-item.form-type-search.js-form-type-search.form-item-keys.js-form-item-keys.form-no-label.form-group {
-}
-
-.form-item.js-form-item.form-type-search.js-form-type-search.form-item-keys.js-form-item-keys.form-no-label.form-group {
-}
-
-.form-item.js-form-item.form-type-search.js-form-type-search.form-item-keys.js-form-item-keys.form-no-label.form-group {
-}
-
-.form-item.js-form-item.form-type-search.js-form-type-search.form-item-keys.js-form-item-keys.form-no-label.form-group {
-  display: inline-block;
-}
-
-
-
-
 
 /* --- Main page logo --- */
 .region-header .name.navbar-brand {
@@ -105,21 +85,30 @@ body{
 }
 
 /* --- Media Queries --- */
-@media screen and (min-width: 1200px) {
+@media (min-width: 1200px) {
   .navbar.container {
     max-width: 100%;
   }
-}
-
-@media screen and (min-width: 992px) {
-  .navbar.container {
-    max-width: 100%;
+  .region-header .name.navbar-brand {
+    font-size: 40em;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar.container {
     max-width: 100%;
+  }
+  .region-header .name.navbar-brand {
+    font-size: 3.5em;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar.container {
+    max-width: 100%;
+  }
+  .region-header .name.navbar-brand {
+    font-size: 4em;
   }
 }
 
