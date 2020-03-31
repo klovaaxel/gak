@@ -17,6 +17,9 @@ A Drupal subtheme for the  webapp found at http://
 
 Thanks to the following people who have contributed to this project:
 
+* [@klovaaxel] (https://github.com/klovaaxel)
+* [@xxpentakillenxx] (https://github.com/xxpentakillenxx)
+* [@casper-munk] (https://github.com/casper-munk)
 * [@] ()
 
 
