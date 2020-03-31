@@ -5,7 +5,7 @@
 ![GitHub release](https://img.shields.io/github/v/release/seetee/tcapp)
 ![GitHub contributors](https://img.shields.io/github/contributors/seetee/tcapp)
 
-A Drupal subtheme for the  webapp found at http://
+A Drupal subtheme for the goteborgs astronomiska klubb webapp found at http://
 
 ## Drupal 8 modules used in the project
 
