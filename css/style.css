@@ -89,8 +89,12 @@ body{
   .navbar.container {
     max-width: 100%;
   }
+
   .region-header .name.navbar-brand {
     font-size: 40em;
+  }
+  .region-header .logo img {
+    width: 25%;
   }
 }
 
@@ -98,8 +102,13 @@ body{
   .navbar.container {
     max-width: 100%;
   }
+
+  /* --- Main page logo --- */
   .region-header .name.navbar-brand {
     font-size: 3.5em;
+  }
+  .region-header .logo img {
+    width: 25%;
   }
 }
 
@@ -107,8 +116,13 @@ body{
   .navbar.container {
     max-width: 100%;
   }
+
+  /* --- Main page logo --- */
   .region-header .name.navbar-brand {
     font-size: 4em;
+  }
+  .region-header .logo img {
+    width: 25%;
   }
 }
 
