@@ -1,7 +1,7 @@
 /* --- General --- */
 html{
   background: url(../images/stars.jpg) left top repeat;
-  background-size: auto 30%;
+  background-size: auto 70vh;
 }
 
 body{
@@ -85,21 +85,31 @@ body{
 }
 
 /* --- Media Queries --- */
-@media screen and (min-width: 1200px) {
+@media (min-width: 1200px) {
   .navbar.container {
     max-width: 100%;
   }
-}
-
-@media screen and (min-width: 992px) {
-  .navbar.container {
-    max-width: 100%;
+  .region-header .name.navbar-brand {
+    font-size: 4em;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar.container {
     max-width: 100%;
+  }
+  .region-header .name.navbar-brand {
+    font-size: 4em;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar.container {
+    max-width: 100%;
+  }
+
+  .region-header .name.navbar-brand {
+    font-size: 4em;
   }
 }
 
