@@ -85,40 +85,14 @@ body{
 }
 
 /* --- Media Queries --- */
-@media (min-width: 1200px) {
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 320px) and (orientation : landscape) {
   .navbar.container {
     max-width: 100%;
   }
 
-  .region-header .name.navbar-brand {
-    font-size: 40em;
-  }
-  .region-header .logo img {
-    width: 25%;
-  }
-}
-
-@media (min-width: 992px) {
-  .navbar.container {
-    max-width: 100%;
-  }
-
-  /* --- Main page logo --- */
-  .region-header .name.navbar-brand {
-    font-size: 3.5em;
-  }
-  .region-header .logo img {
-    width: 25%;
-  }
-}
-
-@media (min-width: 768px) {
-  .navbar.container {
-    max-width: 100%;
-  }
-
-  /* --- Main page logo --- */
-  .region-header .name.navbar-brand {
+  .region-header .navbar-brand {
     font-size: 4em;
   }
   .region-header .logo img {
@@ -126,6 +100,46 @@ body{
   }
 }
 
+/* Smartphones (portrait) ----------- */
+@media only screen and (min-width : 320px) and (orientation : portrait) {
+  .navbar.container {
+    max-width: 100%;
+  }
+
+  .region-header .navbar-brand {
+    font-size: 3em;
+  }
+  .region-header .logo img {
+    width: 55%;
+  }
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+  .navbar.container {
+    max-width: 100%;
+  }
+
+  .region-header .navbar-brand {
+    font-size: 5.5em;
+  }
+  .region-header .logo img {
+    width: 40%;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+  .navbar.container {
+    max-width: 100%;
+  }
+
+  .region-header .navbar-brand {
+    font-size: 5.5em;
+  }
+  .region-header .logo img {
+    width: 40%;
+  }
+}
 /* --- Imports --- */
 
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
