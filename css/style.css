@@ -69,6 +69,26 @@ body{
   width: 100%;
 }
 
+/*Sökbar*/
+
+.form-item.js-form-item.form-type-search.js-form-type-search.form-item-keys.js-form-item-keys.form-no-label.form-group {
+}
+
+.form-item.js-form-item.form-type-search.js-form-type-search.form-item-keys.js-form-item-keys.form-no-label.form-group {
+}
+
+.form-item.js-form-item.form-type-search.js-form-type-search.form-item-keys.js-form-item-keys.form-no-label.form-group {
+}
+
+.form-item.js-form-item.form-type-search.js-form-type-search.form-item-keys.js-form-item-keys.form-no-label.form-group {
+  display: inline-block;
+
+  .btn-primary {
+    background-color: #000;
+    border-color: #f9f9f9;
+  }
+
+
 /* --- Media Queries --- */
 @media screen and (min-width: 1200px) {
   .navbar.container {
