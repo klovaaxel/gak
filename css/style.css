@@ -102,16 +102,23 @@ body{
 
 /* Smartphones (portrait) ----------- */
 @media only screen and (min-width : 320px) and (orientation : portrait) {
+  /* --- Navbar --- */
   .navbar.container {
     max-width: 100%;
   }
 
+  .menu--account .first a {
+    margin: 10px 0px;
+  }
+
+  /* --- Main Logo --- */
   .region-header .navbar-brand {
     font-size: 3em;
   }
   .region-header .logo img {
     width: 55%;
   }
+
 }
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1224px) {
