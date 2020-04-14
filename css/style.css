@@ -91,7 +91,6 @@ body{
   .navbar.container {
     max-width: 100%;
   }
-
   .region-header .navbar-brand {
     font-size: 4em;
   }
@@ -106,7 +105,7 @@ body{
   .navbar.container {
     max-width: 100%;
   }
-
+  
   .menu--account .first a {
     margin: 10px 0px;
   }
@@ -115,6 +114,7 @@ body{
   .region-header .navbar-brand {
     font-size: 3em;
   }
+  
   .region-header .logo img {
     width: 55%;
   }
@@ -129,6 +129,7 @@ body{
   .region-header .navbar-brand {
     font-size: 5.5em;
   }
+  
   .region-header .logo img {
     width: 40%;
   }

@@ -1,11 +1,10 @@
 # @GAK
 
-![GitHub last commit](https://img.shields.io/github/last-commit/seetee/tcapp)
-![GitHub repo size](https://img.shields.io/github/repo-size/seetee/tcapp)
-![GitHub release](https://img.shields.io/github/v/release/seetee/tcapp)
-![GitHub contributors](https://img.shields.io/github/contributors/seetee/tcapp)
+![GitHub last commit](https://img.shields.io/github/last-commit/klovaaxel/gak)
+![GitHub repo size](https://img.shields.io/github/repo-size/klovaaxel/gak)
+![GitHub contributors](https://img.shields.io/github/contributors/klovaaxel/gak)
 
-A Drupal subtheme for the  webapp found at http://
+A Drupal subtheme for the goteborgs astronomiska klubb webapp found at http://
 
 ## Drupal 8 modules used in the project
 
@@ -20,6 +19,6 @@ Thanks to the following people who have contributed to this project:
 * [@klovaaxel] (https://github.com/klovaaxel)
 * [@xxpentakillenxx] (https://github.com/xxpentakillenxx)
 * [@casper-munk] (https://github.com/casper-munk)
-* [@] ()
+* [@Naexi] (https://github.com/Naexi)
 
 
