@@ -84,6 +84,13 @@ body{
   background: #ff972d !important;
 }
 
+
+/* --- Frontpage content ---*/
+.contextual-region.view.view-frontpage.view-id-frontpage.view-display-id-page_1.js-view-dom-id-8a20ae62183209317e2a899fb291d6b98410fac8108b82fe691741137219a97a {
+  display: none;
+}
+
+
 /* --- Media Queries --- */
 
 /* Smartphones (landscape) ----------- */
@@ -105,7 +112,7 @@ body{
   .navbar.container {
     max-width: 100%;
   }
-  
+
   .menu--account .first a {
     margin: 10px 0px;
   }
@@ -114,7 +121,7 @@ body{
   .region-header .navbar-brand {
     font-size: 3em;
   }
-  
+
   .region-header .logo img {
     width: 55%;
   }
@@ -129,7 +136,7 @@ body{
   .region-header .navbar-brand {
     font-size: 5.5em;
   }
-  
+
   .region-header .logo img {
     width: 40%;
   }
