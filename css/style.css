@@ -90,6 +90,39 @@ body{
   display: none;
 }
 
+.block-views-blocksensate-artiklar-block-1 {
+  background: #464646;
+  padding: 20px;
+}
+
+.block-title {
+  font-size: 45px;
+}
+
+.view-content {
+  padding: 0 50px;
+}
+
+.views-element-container {
+  margin: 50px 0;
+}
+
+/* --- Article content ---*/
+.col-sm-9 {
+  /* width: 75%; */
+  width: 100%;
+}
+
+.content {
+  margin: 20px auto;
+  background: #464646;
+  padding: 20px;
+  width: 75%;
+}
+
+.article {
+  width: 100%;
+}
 
 /* --- Media Queries --- */
 
