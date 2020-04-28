@@ -71,19 +71,22 @@ body{
 }
 
 /* --- Become a Member Button ---*/
-.menu--account .first a {
+div nav .menu--account .first a {
   background: #d0802f;
   padding: 5px 25px;
   margin: 10px 20px;
   border-radius: 30px;
-  color: white !important;
+  color: white;
   transition: .5s;
 }
 
-.menu--account .first a:hover {
-  background: #ff972d !important;
+div nav .menu--account .first a:hover {
+  background: #ff972d;
 }
 
+div nav .menu--account .first a:visited {
+  background: #ff972d;
+}
 
 /* --- Frontpage content ---*/
 .contextual-region.view.view-frontpage.view-id-frontpage.view-display-id-page_1.js-view-dom-id-8a20ae62183209317e2a899fb291d6b98410fac8108b82fe691741137219a97a {
