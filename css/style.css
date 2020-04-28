@@ -90,6 +90,46 @@ body{
   display: none;
 }
 
+.views-element-container {
+  background: #464646;
+  padding: 20px;
+  margin: 50px auto;
+  width: 75%;
+}
+
+.block-title {
+  font-size: 45px;
+}
+
+.view-content {
+  padding: 0 50px;
+}
+
+.views-element-container {
+  margin: 50px 0;
+}
+
+.article.teaser {
+  margin: 20px 0;
+  padding: 0 14px;
+  background: #0000004a;
+}
+
+/* --- Article content ---*/
+.col-sm-9 {
+  width: 100%;
+}
+
+.content {
+  margin: 20px auto;
+  background: #464646;
+  padding: 20px;
+  width: 75%;
+}
+
+.article {
+  width: 100%;
+}
 
 /* --- Media Queries --- */
 
