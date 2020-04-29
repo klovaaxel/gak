@@ -1,22 +1,22 @@
 /* --- General --- */
 html{
-    background: url(../images/stars.jpg) left top repeat;
-    background-size: auto 30%;
+  background: url(../images/stars.jpg) left top repeat;
+  background-size: auto 70vh;
 }
 
 body{
   font-family: "lato";
   color: #fff;
-
-  background-color: #000;
-  background: url(../images/planetUp.jpg) right top no-repeat, url(../images/planetDown.jpg) right bottom no-repeat;
-  background-size: auto 50%;
-
   margin: 0;
   padding: 0;
+  min-height: 200vh;
+}
 
-  min-height: 300vh;
-
+/* --- background --- */
+body{
+  background-color: #000;
+  background: url(../images/planetUp.jpg) right top no-repeat, url(../images/planetDown.jpg) right bottom no-repeat, url(../images/black.jpg) right no-repeat;
+  background-size: auto 100vh, auto 100vh, 89vh 100%;
 }
 
 /* --- Navbar --- */
@@ -50,11 +50,12 @@ body{
 .region-header .name.navbar-brand {
   display: block;
   width: 100%;
-  text-align: center;
-  color: #fff;
-  font-size: 4em;
+  height: auto;
   margin: 3.5% 0;
   float: none;
+  text-align: center;
+  color: #fff;
+  line-height: inherit;
 }
 
 .region-header .logo img {
@@ -69,37 +70,22 @@ body{
   width: 100%;
 }
 
-/* --- Media Queries --- */
-@media screen and (min-width: 1200px) {
-  .navbar.container {
-    max-width: 100%;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .navbar.container {
-    max-width: 100%;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .navbar.container {
-    max-width: 100%;
-  }
-}
-
 /* --- Become a Member Button ---*/
-.menu--account .first a {
+div nav .menu--account .first a {
   background: #d0802f;
   padding: 5px 25px;
   margin: 10px 20px;
   border-radius: 30px;
-  color: white !important;
+  color: white;
   transition: .5s;
 }
 
-.menu--account .first a:hover {
-  background: #ff972d !important;
+div nav .menu--account .first a:hover {
+  background: #ff972d;
+}
+
+div nav .menu--account .first a:visited {
+  background: #ff972d;
 }
 
 /* --- Become a Member Page ---*/
@@ -128,6 +114,144 @@ body{
   width: 170px;
   height: 70px;
   margin-bottom: 20px;
+}
+
+/* --- Frontpage content ---*/
+.contextual-region.view.view-frontpage.view-id-frontpage.view-display-id-page_1.js-view-dom-id-8a20ae62183209317e2a899fb291d6b98410fac8108b82fe691741137219a97a {
+  display: none;
+}
+
+.views-element-container {
+  background: #464646;
+  padding: 20px;
+  margin: 50px auto;
+  width: 75%;
+}
+
+.block-title {
+  font-size: 45px;
+}
+
+.view-content {
+  padding: 0 50px;
+}
+
+.article.teaser {
+  margin: 20px 0;
+  padding: 0 14px;
+  background: #0000004a;
+}
+.teaser .content {
+    background: none;
+    padding: 0;
+    width: 100%;
+    margin: 20px auto;
+}
+
+/* --- Article content ---*/
+.col-sm-9 {
+  width: 100%;
+}
+
+.content {
+  margin: 20px auto;
+  background: #464646;
+  padding: 20px;
+  width: 75%;
+}
+
+.article {
+  width: 100%;
+}
+
+/* --- Media Queries --- */
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 320px) and (orientation : landscape) {
+  .navbar.container {
+    max-width: 100%;
+  }
+  .region-header .navbar-brand {
+    font-size: 4em;
+  }
+  .region-header .logo img {
+    width: 25%;
+  }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (min-width : 320px) and (orientation : portrait) {
+  /* --- Navbar --- */
+  .navbar.container {
+    max-width: 100%;
+  }
+
+  .menu--account .first a {
+    margin: 10px 0px;
+  }
+
+  /* --- Main Logo --- */
+  .region-header .navbar-brand {
+    font-size: 3em;
+  }
+
+  .region-header .logo img {
+    width: 55%;
+  }
+
+  /* --- MainPage --- */
+
+  .views-element-container {
+    width: 100%;
+  }
+
+  .view-content {
+    padding: 0 0px;
+  }
+
+  .content {
+    padding: 0px;
+    width: 100%;
+  }
+
+  .teaser .content img {
+    width: 100%;
+  }
+
+  .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+  .navbar.container {
+    max-width: 100%;
+  }
+
+  .region-header .navbar-brand {
+    font-size: 5.5em;
+  }
+
+  .region-header .logo img {
+    width: 30%;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+  .navbar.container {
+    max-width: 100%;
+  }
+
+  .region-header .navbar-brand {
+    font-size: 5.5em;
+  }
+  .region-header .logo img {
+    width: 30%;
+  }
 }
 
 /* --- Imports --- */
