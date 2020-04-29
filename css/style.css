@@ -148,6 +148,10 @@ div nav .menu--account .first a:visited {
     margin: 20px auto;
 }
 
+.teaser .content img {
+  width: 100%;
+}
+
 /* --- Article content ---*/
 .col-sm-9 {
   width: 100%;
@@ -211,10 +215,6 @@ div nav .menu--account .first a:visited {
 
   .content {
     padding: 0px;
-    width: 100%;
-  }
-
-  .teaser .content img {
     width: 100%;
   }
 
