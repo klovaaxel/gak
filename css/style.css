@@ -88,6 +88,34 @@ div nav .menu--account .first a:visited {
   background: #ff972d;
 }
 
+/* --- Become a Member Page ---*/
+.member.info {
+  background-color: black;
+  width: 50%;
+}
+
+.member.benefits {
+  background-color: black;
+  width: 50%;
+  border-left: 10px solid;
+}
+.member.main {
+	width: 125%;
+	padding: 15px;
+  background-color: grey;
+}
+
+.member button {
+  color: black;
+  margin-left: 430px;
+  margin-top: 30px;
+  background-color:#ce7e2c;
+  border-color:#ce7e2c;
+  width: 170px;
+  height: 70px;
+  margin-bottom: 20px;
+}
+
 /* --- Frontpage content ---*/
 .views-element-container.form-group {
   display: none;
@@ -211,52 +239,6 @@ div nav .menu--account .first a:visited {
     width: 30%;
   }
 }
-/* --- Become a Member Page ---*/
-
-
-.member.info {
-  background-color: black;
-  width: 50%;
-}
-
-.member.benefits {
-
- background-color: black;
-  width: 50%;
-  border-left: 10px solid;
-}
-.member.main {
-	width: 125%;
-
-	padding: 15px;
-    background-color: grey;
-
-}
-button.member.main {
-
-    color: black;
-
-  margin-left: 430px;
-  margin-top: 30px;
-
-background-color:#ce7e2c;
-
-border-color:#ce7e2c;
-    width: 170px;
-    height: 70px;
-    margin-bottom: 20px;
-
-}
-
-
-
-
-
-
-
-
-
-
 
 /* Large screens ----------- */
 @media only screen  and (min-width : 1824px) {
@@ -271,6 +253,7 @@ border-color:#ce7e2c;
     width: 30%;
   }
 }
+
 /* --- Imports --- */
 
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
