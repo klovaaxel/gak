@@ -101,52 +101,34 @@ body{
 .menu--account .first a:hover {
   background: #ff972d !important;
 }
+
 /* --- Become a Member Page ---*/
-
-
 .member.info {
   background-color: black;
   width: 50%;
 }
 
 .member.benefits {
-
- background-color: black;
+  background-color: black;
   width: 50%;
   border-left: 10px solid;
 }
 .member.main {
 	width: 125%;
-
 	padding: 15px;
-    background-color: grey;
-
+  background-color: grey;
 }
-button.member.main {
 
-    color: black;
-
+.member button {
+  color: black;
   margin-left: 430px;
   margin-top: 30px;
-
-background-color:#ce7e2c;
-
-border-color:#ce7e2c;
-    width: 170px;
-    height: 70px;
-    margin-bottom: 20px;
-
+  background-color:#ce7e2c;
+  border-color:#ce7e2c;
+  width: 170px;
+  height: 70px;
+  margin-bottom: 20px;
 }
-
-
-
-
-
-
-
-
-
-
 
 /* --- Imports --- */
 
