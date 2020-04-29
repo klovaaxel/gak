@@ -104,38 +104,25 @@ body{
 /* --- Become a Member Page ---*/
 
 
-
-ul {
-}
-
-ul.member.benefits {
-}
-
-ul {
-  margin-bottom: ;
-}
-
-
-
 .member.info {
   background-color: black;
   width: 50%;
 }
 
 .member.benefits {
-  
+
  background-color: black;
   width: 50%;
   border-left: 10px solid;
 }
 .member.main {
 	width: 125%;
-  
+
 	padding: 15px;
     background-color: grey;
 
 }
-button {
+button.member.main {
 
     color: black;
 
