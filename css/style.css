@@ -149,7 +149,7 @@ div nav .menu--account .first a:visited {
 }
 
 .teaser .content img {
-  width: 100%;
+  max-width: 100%;
 }
 
 /* --- Article content ---*/
