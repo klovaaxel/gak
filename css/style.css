@@ -46,6 +46,11 @@ body{
   align-items: center;
 }
 
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #ff972d;
+}
+
 /* --- Main page logo --- */
 .region-header .name.navbar-brand {
   display: block;
