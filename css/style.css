@@ -70,6 +70,23 @@ body{
   width: 100%;
 }
 
+/*Search bar*/
+
+.form-item.js-form-item.form-type-search.js-form-type-search.form-item-keys.js-form-item-keys.form-no-label.form-group {
+  display: inline-block;
+  float: right;
+  margin-top: 20px;
+}
+.btn-primary {
+  background-color: #000;
+  border-color: #000;
+  transition: .5s;
+}
+.btn-primary:hover {
+  background-color: #ff972d;
+  border-color: #ff972d;
+}
+
 /* --- Become a Member Button ---*/
 div nav .menu--account .first a {
   background: #d0802f;
@@ -160,6 +177,7 @@ div nav .menu--account .first a:visited {
 .article {
   width: 100%;
 }
+
 
 /* --- Media Queries --- */
 
