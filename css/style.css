@@ -76,6 +76,7 @@ body{
   display: inline-block;
   float: right;
   margin-top: 20px;
+  width: 200px;
 }
 .btn-primary {
   background-color: #000;
