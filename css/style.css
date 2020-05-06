@@ -128,6 +128,14 @@ div nav .menu--account .first a:visited {
   width: 20%;
   border: none;
   margin: 6% 40%;
+  padding: 3% 0%;
+  background: #d0802f;
+  color: white;
+  transition: .5s;
+}
+
+.member img {
+  width: 100%;
 }
 
 /* --- Frontpage content ---*/
