@@ -37,6 +37,10 @@ body{
   align-items: center;
 }
 
+.name.navbar-brand {
+  display: none;
+}
+
 .navbar-nav > li > a {
   line-height: 45px;
 }
