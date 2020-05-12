@@ -141,10 +141,6 @@ div nav .menu--account .first a:visited {
 }
 
 /* --- Frontpage content ---*/
-.views-element-container.form-group {
-  display: none;
-}
-
 .views-element-container {
   background: #464646;
   padding: 20px;
