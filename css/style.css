@@ -147,9 +147,16 @@ div nav .menu--account .first a:visited {
 /* --- Frontpage content ---*/
 .views-element-container {
   background: #464646;
-  padding: 20px;
   margin: 50px auto;
   width: 75%;
+}
+
+.block-title, .view {
+    padding: 20px;
+}
+
+.view-frontpage {
+    display: none;
 }
 
 .block-title {
