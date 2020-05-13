@@ -12,6 +12,10 @@ body{
   min-height: 200vh;
 }
 
+.well {
+  display: none;
+}
+
 /* --- background --- */
 body{
   background-color: #000;
