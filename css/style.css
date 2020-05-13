@@ -176,6 +176,25 @@ div nav .menu--account .first a:visited {
   max-width: 100%;
 }
 
+.more-link {
+  width: 100%;
+}
+
+.more-link a {
+  border: none;
+  background: #d0802f;
+  color: white;
+  transition: .5s;
+  text-align: center;
+  display: block;
+  padding: 2em;
+  margin: 0 30%;
+}
+
+.more-link a:hover {
+  background: #ff972d;
+}
+
 /* --- Article content ---*/
 .col-sm-9 {
   width: 100%;
