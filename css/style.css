@@ -27,12 +27,9 @@ body{
 #navbar.container {
   border: none;
   border-radius: 0;
-
   width: 100vw;
-
   margin: 0 0 5vh 0;
   padding: 0 10vw;
-
   background-color: #000;
 }
 
@@ -84,18 +81,19 @@ body{
 }
 
 /*Search bar*/
-
 .form-item.js-form-item.form-type-search.js-form-type-search.form-item-keys.js-form-item-keys.form-no-label.form-group {
   display: inline-block;
   float: right;
   margin-top: 20px;
   width: 200px;
 }
+
 .btn-primary {
   background-color: #000;
   border-color: #000;
   transition: .5s;
 }
+
 .btn-primary:hover {
   background-color: #ff972d;
   border-color: #ff972d;
@@ -176,6 +174,7 @@ div nav .menu--account .first a:visited {
   padding: 0 14px;
   background: #0000004a;
 }
+
 .teaser .content {
     background: none;
     padding: 0;
@@ -222,9 +221,7 @@ div nav .menu--account .first a:visited {
   width: 100%;
 }
 
-
 /* --- Media Queries --- */
-
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width : 10px) and (orientation : landscape) {
   .navbar.container {
@@ -259,7 +256,6 @@ div nav .menu--account .first a:visited {
   }
 
   /* --- MainPage --- */
-
   .views-element-container {
     width: 100%;
   }
@@ -279,20 +275,20 @@ div nav .menu--account .first a:visited {
   }
 
   /* --- Become a Member Page ---*/
-
   .member button {
     width: 40%;
     margin: 6% 30%;
   }
+
   .member.benefits {
     width: 100%;
     float: none;
   }
+
   .member.info {
     width: 100%;
     display: block;
   }
-
 
 }
 /* Desktops and laptops ----------- */
@@ -308,6 +304,7 @@ div nav .menu--account .first a:visited {
   .region-header .logo img {
     width: 30%;
   }
+
 }
 
 /* Large screens ----------- */
@@ -319,6 +316,7 @@ div nav .menu--account .first a:visited {
   .region-header .navbar-brand {
     font-size: 5.5em;
   }
+
   .region-header .logo img {
     width: 30%;
   }
